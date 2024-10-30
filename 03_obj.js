@@ -32,4 +32,4 @@ const person2 = {firstName: 'Maxim'}
 // const bound = person.info.bind(person2)
 // bound() // My name is Maxim
 
-person.info.call(person2) // My name is Maxim
+// person.info.call(person2) // My name is Maxim
