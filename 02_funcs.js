@@ -45,7 +45,7 @@ function sumAll(...all) {
 
 function createMember(firstName) {
     return function (lastName) {
-        console.log(firstName + ' ' + lastName)
+        // console.log(firstName + ' ' + lastName)
     }
 }
 const logWithLastName = createMember('John')
